@@ -3,7 +3,7 @@ package javaps;
 import java.util.Scanner;
 
 
-public class Findchars {
+public class Str_1 {
 
     public int solution(String str, char c){
 
@@ -21,7 +21,7 @@ public class Findchars {
 
     public static void main(String[] args){
 
-        Findchars f = new Findchars();
+        Str_1 f = new Str_1();
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         char c = sc.next().charAt(0);
