@@ -10,11 +10,11 @@ public class Str_9 {
         String tmp = "";
         int sum = 0;
         for (char arr : arrs) {
-            if(arr >= '0' && arr <= '9'){
-                sum = (sum * 10) + (arr - '0');
+            if(Character.isDigit(arr)){
+                tmp += arr;
             }
         }//for
-        return sum;
+        return Integer.parseInt(tmp);
     }
 
     public static void main(String[] args){
