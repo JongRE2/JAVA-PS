@@ -6,6 +6,7 @@ public class Str_11 {
 
     static String solution(String str){
         int cnt = 1;
+        str = str + " ";
         String stored = "";
         int len = str.length();
         for(int i = 0; i < len - 1 ; i++){
@@ -19,12 +20,7 @@ public class Str_11 {
                 cnt = 1;
             }
         }//for
-        if(cnt == 1){
-            stored += str.charAt(len - 1);
-        }else{
-            stored += str.charAt(len - 1);
-            stored += Integer.toString(cnt);
-        }
+
         return stored;
     }
 
