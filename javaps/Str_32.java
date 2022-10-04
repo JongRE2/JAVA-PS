@@ -17,7 +17,7 @@ public class Str_32 {
         }
         boolean check = true;
         for (Character c : h2.keySet()) {
-            if(h2.get(c) != h1.get(c)){
+            if(h2.get(c) != h1.get(램c)){
                 check = false;
                 break;
             }
