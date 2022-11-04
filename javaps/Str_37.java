@@ -13,10 +13,7 @@ public class Str_37 {
         for (char c : arrs) {
 
             if(c == ')'){
-                do{
-                    st.pop();
-                }while(st.peek() != '(');
-                st.pop();
+                while(st.pop() != '(');
             }else{
                 st.push(c);
             }
